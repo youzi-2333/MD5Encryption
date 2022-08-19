@@ -40,7 +40,7 @@ Module main
             '哈希值相同
             Console.WriteLine(hash)
         Else
-            '哈希值不相同
+            '哈希值不同
             Console.WriteLine("0x0000000")
             Console.WriteLine("Error: Hash values are different.")
             Console.WriteLine("This would usually caused by the system delay.")
