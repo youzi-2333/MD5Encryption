@@ -21,11 +21,12 @@
 
 当两次加密后的哈希值为不同数值，将会返回以下信息：
 
-<code>
 0x0000000
-Error: Hash values are different.
-This would usually caused by the system delay.
-Please retry to solve this problem.
-</code>
 
-您可以通过执行命令`type file.txt`以获取错误代码。
+Error: Hash values are different.
+
+This would usually caused by the system delay.
+
+Please retry to solve this problem.
+
+如果将结果输出至一个文件，您可以通过执行命令`type file.txt`以获取错误代码。
