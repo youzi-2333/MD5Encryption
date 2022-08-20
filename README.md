@@ -14,6 +14,8 @@
 如果需要加密的内容带有空格，您无需使用引号包裹文本，例如：`md5 t e x t`也可达到同样的效果。
 
 如需将加密结果输入进文件，请运行：`md5 text>file.txt`。请注意，如果存在file.txt，该文件将会被覆盖。如需追加，请使用`md5 text>>file.txt`。
+
+如需复制结果至剪贴板，请运行：`md5 text|clip`
 ## 错误
 如果运行出现错误，将会呈现错误信息。
 ### 哈希值不同
@@ -29,4 +31,4 @@ This would usually caused by the system delay.
 
 Please retry to solve this problem.
 
-如果将结果输出至一个文件，您可以通过执行命令`type file.txt`以获取错误代码。
+如果您已经将结果输出至一个文件，您可以通过执行命令`type file.txt`以获取错误代码。
